@@ -1,0 +1,87 @@
+body
+{margin: 200;
+padding: 0;
+font-family: san-serif;
+background: url(bg.jpg);
+background-size: cover;
+text-align; center;
+}
+
+.box
+{
+margin-top: 100px;
+color: #fff;
+text-transform: uppercase;
+transition: all 45 ea;
+
+}
+.box h2
+{
+
+font-family:  italic;
+margin: 0 0 30px;
+padding: 0;
+color: orange;
+text-aling: center;
+cursor: pointer;}
+.box .inputBox
+{
+position: relative;
+}
+.box .inputBox input
+{
+width: 50%;
+padding: 10px 0;
+font-size: 16px;
+color: #fff;
+margin-bottom: 30px;
+border: none;
+border-bottom: 1px solid #fff;
+outline: none;
+background: transparent; 
+}
+.box .inputBox textarea 
+{
+width:50%;
+padding: 10px 0;
+font-size: 16px;
+color: yellow;
+margin-bottom: 30px;
+border: none;
+border-bottom: 1px solid #fff;
+outline: none;
+background: transparent; 
+}
+.box .inputBox label
+{
+position: absolute;
+top: 0;
+left: 215;
+padding: 10px 0;
+font-size: 18px;
+color: #fff;
+pointer-events: none;
+transition: .5s;
+
+}
+.box  .inputBox  input:focus ~ label,
+.box  .inputBox  input:valid ~ label
+{
+
+top: -18px;
+left:210;
+color: #03b9f4;
+font-size: 12px;
+}
+
+.box input[ type="submit"]
+{
+
+background:  orange;; 
+border: none;
+outline: none;
+padding: 10px 20px;
+cursor: pointer;
+border-radius: 5px;
+}
+

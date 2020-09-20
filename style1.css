@@ -1,0 +1,122 @@
+body
+{margin: 10;
+padding: 0;
+font-family: san-serif;
+background: url(s.png);
+background-size: cover;
+}
+
+.box
+{
+position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%,-50%);
+width: 500px;
+padding: 30px;
+background: rgba(0,0,0,.8);
+box-sizing: border-box;
+box-shadow: 0 15px 25px rgba(0,0,0,.8);
+border-radius: 20px;
+border-color:blue;
+}
+ l
+{
+padding: 300px;
+
+top: 50%;
+left: 50%
+cursor: pointer;
+}
+.box h
+{
+
+margin: 0 0 15px;
+padding: 15;
+color:  ;
+transition: .5s;
+}
+.box h2
+{
+
+
+margin: 0 0 15px;
+padding: 15;
+color:  yellow;
+text-aling: center;
+cursor: pointer;
+}
+.box .inputBox
+{
+position: relative;
+}
+.box .inputBox input
+{
+width: 100%;
+padding: 10px 0;
+font-size: 16px;
+color: #fff;
+margin-bottom: 30px;
+border: none;
+border-bottom: 1px solid #fff;
+outline: none;
+background: transparent; 
+}
+.box .inputBox label
+{
+position: absolute;
+top: 0;
+left: 0;
+padding: 10px 0;
+font-size: 20px;
+color: #fff;
+pointer-events: none;
+transition: .5s;
+
+}
+.box  .inputBox  input:focus ~ label,
+.box  .inputBox  input:valid ~ label
+{
+top: -18px;
+left: 0;
+color: #03a9f4;
+font-size: 14px;
+}
+.box  input[ type="submit"]
+{
+color: #fff;
+background:  red;; 
+border: none;
+outline: none;
+padding: 6px 15px;
+cursor: pointer;
+border-radius: 5px;
+
+}
+
+.m  input[ type="submit"]
+{
+margin: 15px;
+color: yellow;
+background:  green;; 
+border: none;
+outline: none;
+padding: 6px 15px;
+cursor: pointer;
+border-radius: 5px;
+
+}
+.box .create 
+{
+position: relative;
+}
+.box .create input[ type="submit"]
+
+{
+background:  yellow;; 
+border: none;
+outline: none;
+padding: 10px 20px;
+cursor: pointer;
+border-radius: 5px; 
+}

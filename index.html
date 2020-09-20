@@ -1,0 +1,142 @@
+
+
+<! doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title> Login</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<style>
+<style>
+body {font-family: Arial, Helvetica, sans-serif;}
+
+
+.button {
+  background-color: #4CAF50;
+  color: white;
+ padding: 12px 30px;
+  border: none;
+  cursor: pointer;
+ margin: 16px 30;
+}
+
+.button:hover {
+  opacity: 0.8;
+ 
+}
+
+/* The Modal (background) */
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+  padding-top: 60px;
+}
+
+
+.cancelbtn {
+  width: auto;
+  padding: 9px 12px;
+ background-color: #4CAF50;
+  color: white;
+  padding: 14px 20px;
+  margin: 170px 430;
+  border: none;
+  cursor: pointer;
+border-radius:50%;
+  background-color: #f44336;
+}
+
+a, .a{
+margin: 80 50 10px;
+}
+k, .k{
+font-size:  40px;
+font-family:  italic;
+margin:  500 1px;
+padding:10 10px;
+color:  #03a9f4;
+text-aling: center;
+cursor: pointer;}
+u, .u{
+font-size:  44px;
+font-family:  italic;
+margin:  400 1px;
+padding: 10 10px;;
+color:  orange;
+text-aling: center;
+cursor: pointer;}
+</style>
+
+</style>
+
+
+<button class="button" onclick="document.getElementById('id01').style.display='block'" style="width:auto;">Login</button>
+
+<div id="id01" class="modal">
+<div  id ="12" class="box">
+<h><center><img class="icon" id="bb" src="1.png" border="0" alt=""></h>
+
+<h2><center>Inter your account </h2>
+<form>
+
+<div class="inputBox">
+<input type="text" name= "name" id="n" required="">
+<label>username</label>
+</div>
+<div class="inputBox">
+<input type="password" id="p" name="password" required="">
+<label>password</label>
+</div>
+<input type="checkbox" > Remember me
+
+<div class="l">
+<input type="submit" name="" value="Login" onclick="check();"></form></div>
+
+
+<form action="c.html" method="post" >
+<div class="m"><input type="submit" id="s" name="" value="create anaccount"></div>
+
+
+</form></div>
+<button type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn">X</button>
+<script>
+var modal = document.getElementById('id01');
+window.onclick = function(event) {
+    if (event.target == modal) {
+        modal.style.display = "none";
+    }
+}
+function check(){
+var name = document.getElementById('n').value;
+var pass = document.getElementById('p').value;
+if(name=="admin"&&pass=="admin"){
+
+window.open(href="project 1.html");
+
+}else {alert("user name or password incorrect!");}
+}
+
+</script>
+
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>

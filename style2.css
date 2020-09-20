@@ -1,0 +1,100 @@
+body
+{margin: 10;
+padding: 100;
+font-family: san-serif;
+background: url(s.png);
+background-size: cover;
+}
+
+.box
+{
+position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%,-50%);
+height: 500px;
+width: 700px;
+padding: 80px;
+background: rgba(0,0,0,.7);
+box-sizing: border-box;
+box-shadow: 0 15px 25px rgba(0,0,0,.8);
+border-radius: 20px;
+border-color:blue;
+}
+
+.box b
+{
+font-size: 35px;
+
+margin: 10 10 100px;
+padding: 1px;
+color:  green;
+
+}
+.box a
+{
+font-size: 25px;
+
+margin: 0 0 10px;
+padding: 0px;
+color:  red;
+text-aling: center;
+cursor: pointer;
+}
+.box .inputBox
+{
+position: relative;
+}
+.box input
+{
+
+
+font-size: 16px;
+color: blue;
+ 
+}
+.box k
+{
+width: 100%;
+padding: 10px 0;
+font-size: 16px;
+color: grey;
+margin-bottom: 30px;
+border: none;
+border-bottom: 1px solid #fff;
+outline: none;
+background: transparent; 
+}
+.box .inputBox placeholder
+{
+position: absolute;
+top: 0;
+left: 0;
+padding: 10px 0;
+font-size: 20px;
+color: yellow;
+pointer-events: none;
+transition: .5s;
+
+}
+.box  .inputBox  input:focus ~ label,
+.box  .inputBox  input:valid ~ label
+{
+top: -18px;
+left: 0;
+color: #03a9f4;
+font-size: 14px;
+}
+.box .m input[ type="submit"]
+{
+color: black;
+submit-aling: center;
+background:  yellow;; 
+border: none;
+outline: none;
+padding: 6px 15px;
+cursor: pointer;
+border-radius: 5px;
+
+}
+
